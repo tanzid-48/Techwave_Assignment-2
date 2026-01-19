@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ .background-color{
+ background-color: #2b0040;
+ color: #ffffff;
+ }
+.google_font_inter{
+  font-family: "Inter", sans-serif;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list-item{
+    padding: 30px;
+    display: flex;
+    gap: 32px;
+}
+.list-item li{
+    list-style: none;
+     
+}
+.list-item li a{
+    text-decoration: none;
+        color: #ffffff;
+}
+.navbar-logo{
+    padding: 20px;
+    font-size: 20px;
+}
+.navbar-logo .wave{
+    background: linear-gradient(
+  rgba(247, 233, 63, 1),
+  rgba(251, 9, 180, 1),
+  rgba(145, 0, 248, 1)
+);
+}
+.navbar-button{
+    margin: 20px;
+    padding: 5px 8px;
+   font-size: 16px;
+   cursor: pointer;
+    /* font-weight: 600; */
+    color: #ffffff;
+    text-align: center;
+    border-radius: 50px;
+     background: linear-gradient(
+  rgba(247, 233, 63, 1),
+  rgba(251, 9, 180, 1),
+  rgba(145, 0, 248, 1)
+);
+}
