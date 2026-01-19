@@ -77,14 +77,17 @@ hr{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 .hero-image{
     position: relative;
     width: 350px;
+   
 
 }
 .circle-image{
     width: 100%;
+   
 }
 .microphone-image{
     position: absolute;
@@ -101,7 +104,7 @@ hr{
 .hero-text{
     font-size: 16px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(245, 245, 245, 0.792);
 }
 .hero-button-2{
     border: 1px solid #00FF88;
@@ -111,10 +114,32 @@ hr{
     font-weight: 600;
     color: rgba(0, 255, 136, 1);
     background-color: #2b0040;
+    margin-bottom: 150px;
    
 }
 .hero-button-2:hover{
     background-color:blueviolet;
+}
+/* About section */
+.about{
+    /* padding: 50px 120px 200px;
+    text-align: center; */
+    padding: 80px 20px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.about-title{
+    font-size: 48px;
+font-weight: 700;
+margin-bottom: 24px;
+    
+}
+.about-description{
+    font-size: 16px;
+font-weight: 300;
+color: rgba(245, 245, 245, 0.792);
+ line-height: 1.8; 
 }
 
 
@@ -185,12 +210,19 @@ hr{
         font-size: 12px;
     }
       .hero-image {
-        width: 250px;
+        width: 280px;
     }
     .microphone-image {
-        top: 50px;
-        right: 75px;
+        top: 60px;
+        right: 95px;
         width: 100px;
+    }
+    .about-title{
+        font-size: 32px;
+    }
+    .about-description{
+        font-size: 16px;
+         padding: 0 15px; 
     }
 
 }
