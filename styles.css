@@ -33,8 +33,9 @@
 .navbar-logo{
     padding: 20px;
     font-size: 20px;
+    cursor: pointer;
 }
-.navbar-logo .wave{
+ .wave{
     background: linear-gradient(
   rgba(247, 233, 63, 1),
   rgba(251, 9, 180, 1),
@@ -55,4 +56,79 @@
   rgba(251, 9, 180, 1),
   rgba(145, 0, 248, 1)
 );
+}
+hr{
+    border: 1px solid #5b058676;
+}
+.hamburger{
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+   .navbar-list,
+  .nav-button{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+    color: #ffffff;
+  }
+   .navbar-container{
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+    
 }
