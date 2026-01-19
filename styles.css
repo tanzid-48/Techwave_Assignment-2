@@ -122,8 +122,6 @@ hr{
 }
 /* About section */
 .about{
-    /* padding: 50px 120px 200px;
-    text-align: center; */
     padding: 80px 20px;
     text-align: center;
     max-width: 900px;
@@ -140,6 +138,32 @@ margin-bottom: 24px;
 font-weight: 300;
 color: rgba(245, 245, 245, 0.792);
  line-height: 1.8; 
+}
+
+/* Box section */
+
+.box-container{
+ 
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    /* align-items: center; */
+    gap: 50px;
+   
+}
+
+
+.box{
+ 
+    font-size: 48px;
+    font-weight: 900;
+    color: rgba(0, 255, 136, 1);
+}
+.box p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+   color: rgba(245, 245, 245, 0.792); 
 }
 
 
@@ -224,6 +248,9 @@ color: rgba(245, 245, 245, 0.792);
         font-size: 16px;
          padding: 0 15px; 
     }
-
+    .box-container{
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
 }
 
