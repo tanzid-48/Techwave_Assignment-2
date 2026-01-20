@@ -32,7 +32,7 @@
 }
 .navbar-logo{
     padding: 20px;
-    font-size: 20px;
+    font-size: 1.25rem;
     cursor: pointer;
 }
  .wave{
@@ -46,7 +46,7 @@
  .hero-button{
     margin: 20px;
    padding: 12px 20px;
-   font-size: 16px;
+   font-size: 1rem;
    cursor: pointer;
     /* font-weight: 600; */
     color: #ffffff;
@@ -99,12 +99,12 @@ hr{
 }
 
 .hero-title{
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 800;
     color: rgba(255, 255, 255, 1);
 }
 .hero-text{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: rgba(245, 245, 245, 0.792);
 }
@@ -112,7 +112,7 @@ hr{
     border: 1px solid #00FF88;
     padding: 12px 20px;
     border-radius: 50px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     color: rgba(0, 255, 136, 1);
     background-color: #2b0040;
@@ -127,7 +127,7 @@ hr{
   top: 70px;
   right: 5px;
   padding: 8px 18px;
-  font-size: 14px;
+  font-size: 0.87rem;
   font-weight: 600;
   background-color: #00ff88;
   color: #1a0028;
@@ -143,13 +143,13 @@ hr{
     margin: 0 auto;
 }
 .about-title{
-    font-size: 48px;
+    font-size: 3rem;
 font-weight: 700;
 margin-bottom: 24px;
     
 }
 .about-description{
-    font-size: 16px;
+    font-size: 1rem;
 font-weight: 300;
 color: rgba(245, 245, 245, 0.792);
  line-height: 1.8; 
@@ -171,19 +171,19 @@ color: rgba(245, 245, 245, 0.792);
 
 .box{
  
-    font-size: 43px;
+    font-size: 2.67rem;
     font-weight: 900;
     color: rgba(0, 255, 136, 1);
 }
 .box p{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 20px;
    color: rgba(245, 245, 245, 0.792); 
 }
 /* Feature section */
 .fea-title{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     text-align: center;
     color: #ffffffc8;
@@ -227,19 +227,19 @@ color: rgba(245, 245, 245, 0.792);
 
 }
 .feature-container h3{
-    font-size: 20px;
+    font-size: 1.25rem;
   font-weight: 700;
    margin-bottom: 15px;
 }
 .feature-container p{
-    font-size: 16px;
+    font-size: 1rem;
 font-weight: 400;
 color: rgba(245, 245, 245, 0.792);
 }
 /* podcast section */
 
 .podcast-header{
-    font-size: 48px;
+    font-size: 3rem;
     text-align: center;
   
 }
@@ -275,13 +275,13 @@ color: rgba(245, 245, 245, 0.792);
 }
 
 .podcast-content h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
 .podcast-content p {
-  font-size: 14px;
+  font-size: 0.8rem;
   font-weight: 400;
    color: rgba(245, 245, 245, 0.792); 
   
@@ -290,11 +290,11 @@ color: rgba(245, 245, 245, 0.792);
 .duration {
   margin-top: 16px;
   color: #6affc4;
-  font-size: 14px;
+  font-size: 1rem;
 }
 /* Host section */
 .host{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 40px;
@@ -317,12 +317,12 @@ color: rgba(245, 245, 245, 0.792);
    width: 260px;
 }
 .host-content h3{
-    font-size: 32px;
+    font-size: 2rem;
 font-weight: 700;
 margin-bottom: 16px;
 }
 .host-content p{
-    font-size: 16px;
+    font-size: 1rem;
 font-weight: 400;
  color: rgba(245, 245, 245, 0.792);
  margin-bottom: 15px;
@@ -361,7 +361,7 @@ font-weight: 400;
    
 }
 .footer-title{
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 800;
     margin-bottom: 50px ;
   
@@ -376,8 +376,7 @@ font-weight: 400;
     justify-content: center;
     padding: 40px 20px;
     flex-wrap: wrap;
-    max-width: 1140px;
-  margin: 0 auto;
+
 }
 .social-item{
     display: flex;
@@ -389,14 +388,17 @@ font-weight: 400;
      padding: 10px;
 }
 .social-item p{
-    font-size:14px ;
+    font-size:0.8rem ;
      color: rgba(245, 245, 245, 0.792);
 }
 .footer-last{
     margin-top: 32px;
-    font-size: 12px;
+    font-size: 0.75rem;
   color: rgba(245, 245, 245, 0.792);
 }
+
+
+
 
 /* Mobile Responsive */
 
@@ -417,10 +419,10 @@ font-weight: 400;
 
   /* Hero-section */
     .hero-title {
-        font-size: 36px;
+        font-size: 2.25rem;
     }
      .hero-text {
-        font-size: 12px;
+        font-size: 0.7rem;
     }
       .hero-image {
         width: 280px;
@@ -431,10 +433,10 @@ font-weight: 400;
         width: 100px;
     }
     .about-title{
-        font-size: 32px;
+        font-size: 2rem;
     }
     .about-description{
-        font-size: 16px;
+        font-size: 1rem;
          padding: 0 15px; 
     }
     .box-container{
@@ -459,7 +461,7 @@ font-weight: 400;
 }
 /* Host section */
 .host{
-    font-size: 32px;
+    font-size: 2rem;
 }
   .host-container {
     flex-direction: column;
@@ -475,7 +477,7 @@ font-weight: 400;
   }
   /* footer-section */
   .footer-title {
-    font-size: 36px;
+    font-size: 2.4rem;
     margin-bottom: 10px;
   }
 
