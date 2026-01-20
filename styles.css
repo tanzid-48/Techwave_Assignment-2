@@ -122,6 +122,19 @@ hr{
 .hero-button-2:hover{
     background-color:blueviolet;
 }
+.green-button {
+  position: absolute;
+  top: 70px;
+  right: 5px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #00ff88;
+  color: #1a0028;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
 /* About section */
 .about{
     padding: 80px 20px;
@@ -295,6 +308,7 @@ color: rgba(245, 245, 245, 0.792);
     display: flex;
     align-items: center;
     gap: 24px;
+    
   
 }
 .host-image img{
@@ -326,51 +340,63 @@ font-weight: 400;
     height: 40px;
     border-radius: 50%;
     /* border: 1px solid goldenrod; */
-
 } 
+.link-up img,
+.social-item img {
+  transition: transform 0.3s ease;
+}
 
+.link-up img:hover,
+.social-item img:hover {
+  transform: scale(1.2);
+}
+/* footer section */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-container{
+    max-width: 100%;
+    margin-top: 100px;
+   background: #1a0028;
+   padding: 80px 20px;
+   text-align: center;
+   
+}
+.footer-title{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 50px ;
+  
+}
+.social-media{
+    background-image: url(./assets/footer-bg.png);
+    justify-items: center;
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    max-width: 1140px;
+  margin: 0 auto;
+}
+.social-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+     color: rgba(245, 245, 245, 0.792);
+     margin-top: 20px;
+     padding: 10px;
+}
+.social-item p{
+    font-size:14px ;
+     color: rgba(245, 245, 245, 0.792);
+}
+.footer-last{
+    margin-top: 32px;
+    font-size: 12px;
+  color: rgba(245, 245, 245, 0.792);
+}
 
 /* Mobile Responsive */
 
@@ -446,6 +472,18 @@ font-weight: 400;
     display: inline-flex;
     justify-content: center;
     gap: 12px;
+  }
+  /* footer-section */
+  .footer-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  .social-media {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+
   }
 }
 
