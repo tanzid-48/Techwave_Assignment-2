@@ -80,20 +80,22 @@ hr{
     
 }
 .hero-image{
+    
     position: relative;
-    width: 350px;
+    width: 300px;
    
 
 }
 .circle-image{
     width: 100%;
+    margin-top: 50px;
    
 }
 .microphone-image{
     position: absolute;
-      top: 60px;
+      top: 120px;
      right: 100px;
-    width: 150px;
+    width: 100px;
 }
 
 .hero-title{
@@ -156,7 +158,7 @@ color: rgba(245, 245, 245, 0.792);
 
 .box{
  
-    font-size: 48px;
+    font-size: 43px;
     font-weight: 900;
     color: rgba(0, 255, 136, 1);
 }
@@ -277,6 +279,56 @@ color: rgba(245, 245, 245, 0.792);
   color: #6affc4;
   font-size: 14px;
 }
+/* Host section */
+.host{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.host-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+     background: #1a0028;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  
+}
+.host-image img{
+      margin-top:20px;
+  width: 100%;
+   width: 260px;
+}
+.host-content h3{
+    font-size: 32px;
+font-weight: 700;
+margin-bottom: 16px;
+}
+.host-content p{
+    font-size: 16px;
+font-weight: 400;
+ color: rgba(245, 245, 245, 0.792);
+ margin-bottom: 15px;
+}
+.link-up img{
+    width: 20px;
+    height: 20px;
+
+}
+.link-up{
+   
+    display: flex;
+    gap: 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* border: 1px solid goldenrod; */
+
+} 
+
 
 
 
@@ -348,7 +400,7 @@ color: rgba(245, 245, 245, 0.792);
         width: 280px;
     }
     .microphone-image {
-        top: 60px;
+        top: 100px;
         right: 95px;
         width: 100px;
     }
@@ -360,12 +412,17 @@ color: rgba(245, 245, 245, 0.792);
          padding: 0 15px; 
     }
     .box-container{
+      
     grid-template-columns: repeat(2,1fr);
     gap: 40px;
 }
  
 .feature-container{
     grid-template-columns: repeat(1,1fr);
+    margin: 0 auto;
+    /* justify-items: center; */
+    align-items: center;
+    
 }
 /* Feature section */
 .podcast-container {
@@ -374,5 +431,21 @@ color: rgba(245, 245, 245, 0.792);
   gap: 40px;
  
 }
+/* Host section */
+.host{
+    font-size: 32px;
+}
+  .host-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .host-image img{
+    width: 200px;
+  }
+  .link-up {
+    display: inline-flex;
+    justify-content: center;
+    gap: 12px;
+  }
 }
 
