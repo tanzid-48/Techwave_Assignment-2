@@ -1,0 +1,160 @@
+# TechWave Podcast Website
+
+A modern, responsive landing page for TechWave - a technology podcast focusing on tech insights, productivity hacks, and personal growth.
+
+🔗 **Live Demo:** [https://tanzid-48.github.io/Techwave_Assignment-2/](https://tanzid-48.github.io/Techwave_Assignment-2/)
+
+## 📋 Project Overview
+
+TechWave is a professionally designed podcast landing page that showcases episode highlights, host information, and community engagement features. The website serves as the central hub for listeners to discover and subscribe to the podcast across multiple platforms.
+
+## ✨ Features
+
+- **Responsive Design** - Fully optimized for desktop, tablet, and mobile devices
+- **Hero Section** - Eye-catching header with podcast branding and subscription CTA
+- **About Section** - Detailed podcast description and value proposition
+- **Statistics Dashboard** - Display key metrics (150K+ monthly listeners, 200+ episodes, 4.9 rating)
+- **Feature Highlights** - Showcase unique selling points with icons
+- **Featured Episodes** - Preview of popular podcast episodes with duration
+- **Host Profile** - Introduction to Alex Heals with social media links
+- **Platform Links** - Easy access to Spotify, Apple Podcast, YouTube, and Twitter
+- **Modern UI/UX** - Clean, professional design with smooth animations
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (if applicable)
+- Responsive Web Design
+- GitHub Pages (for deployment)
+
+## 📊 Key Sections
+
+### About the Podcast
+Learn about TechWave's mission to deliver digestible tech insights and productivity strategies to thousands of young professionals.
+
+### Why Choose TechWave
+- Premium Audio Quality
+- Mobile Friendly
+- Global Community (120+ countries)
+- Exclusive Interviews
+- Rich Resources
+
+### Featured Episodes
+1. **The Future of AI in Everyday Life** (42 min)
+2. **Building Better Habits for Remote Work** (35 min)
+3. **Career Growth in Tech: A Roadmap** (51 min)
+
+### Meet The Host
+**Alex Heals** - Tech entrepreneur with 10+ years of industry experience, sharing insights from industry leaders and practical advice for tech career growth.
+
+## 🚀 Getting Started
+
+### Prerequisites
+- A modern web browser
+- Git installed on your machine
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/tanzid-48/Techwave_Assignment-2.git
+```
+
+2. Navigate to the project directory
+```bash
+cd Techwave_Assignment-2
+```
+
+3. Open `index.html` in your browser
+```bash
+# On macOS
+open index.html
+
+# On Windows
+start index.html
+
+# On Linux
+xdg-open index.html
+```
+
+## 📁 Project Structure
+
+```
+Techwave_Assignment-2/
+│
+├── assets/
+│   ├── hero-circle.png
+│   ├── microphone.png
+│   ├── headphone.png
+│   ├── device.png
+│   ├── location.png
+│   ├── Screen.png
+│   ├── resource.png
+│   ├── host.png
+│   ├── linkedin.png
+│   ├── x.png
+│   ├── instagram.png
+│   ├── youtube.png
+│   ├── spotify.png
+│   ├── apple-podcast.png
+│   ├── youtube-podcast.png
+│   └── twitter.png
+│
+├── index.html
+├── style.css (if separate)
+└── README.md
+```
+
+## 🎨 Design Highlights
+
+- Clean and modern aesthetic
+- Intuitive navigation
+- Strategic use of icons and imagery
+- Professional color scheme
+- Accessibility-friendly layout
+
+## 📱 Responsive Breakpoints
+
+The website is optimized for:
+- Desktop (1200px+)
+- Tablet (768px - 1199px)
+- Mobile (320px - 767px)
+
+## 🌐 Deployment
+
+This project is deployed using GitHub Pages. Any push to the main branch will automatically update the live site.
+
+## 📈 Stats & Metrics
+
+- **150K+** Monthly Listeners
+- **200+** Episodes Published
+- **4.9** Average Rating
+- **50+** Industry Experts Featured
+- **120+** Countries in Community
+
+## 🔗 Connect
+
+- [Spotify](https://spotify.com)
+- [Apple Podcast](https://podcasts.apple.com)
+- [YouTube](https://youtube.com)
+- [Twitter](https://twitter.com)
+
+## 👤 Author
+
+**Tanzid**
+- GitHub: [@tanzid-48](https://github.com/tanzid-48)
+
+## 📝 License
+
+This project is created as part of an assignment. All rights reserved © 2026 TechWave Podcast.
+
+## 🙏 Acknowledgments
+
+- Icons and imagery used in the project
+- Inspiration from modern podcast landing pages
+- Web design best practices and UI/UX principles
+
+---
+
+**Note:** This is an educational project created for Assignment-2.
